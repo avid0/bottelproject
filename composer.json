@@ -1,0 +1,27 @@
+{
+    "name": "avid/bottelproject",
+    "description": "Telegram bot api framework project",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "5.5.x-dev",
+        "illuminate/database": "10.x",
+        "avid/bottel": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Avid\\Bottelproject\\": "src/"
+        },
+        "files": [
+            "app/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Avid",
+            "email": "avid.github@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
